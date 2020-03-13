@@ -77,10 +77,11 @@ h3 {
     margin: 0 0 24px;
 }
 
-h4,
-h5,
-h6 {
-    color: #17181A
+h1,
+h2,
+h3 {
+    color: #17181A;
+    font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;
 }
 
 h4,
