@@ -3,6 +3,7 @@
     ---
     Default markup for page level elements
 */
+
 @font-face {
     font-family: "Inter Web";
     font-weight: 400;
@@ -29,6 +30,7 @@ body {
     margin: 0 auto;
 }
 
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -42,6 +44,7 @@ body {
     text-shadow: none;
 }
 
+
 /*
     Elements: Images
     ---
@@ -52,6 +55,7 @@ img {
     max-width: 100%;
     vertical-align: top;
 }
+
 
 /*
     Elements: typography
@@ -158,9 +162,11 @@ a:focus {
     color: #00A1E6;
 }
 
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
+
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -174,13 +180,16 @@ a:focus {
     }
 }
 
+
 /* Large devices (landscape tablets, desktops, 992px and up) */
 
 @media (min-width: 992px) {}
 
+
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {}
+
 
 /*
     Print styles.
@@ -247,4 +256,43 @@ a:focus {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+/*
+    Components: Author
+*/
+
+.c-author {
+    display: flex;
+    align-items: center;
+}
+
+.c-author__image {
+    width: 56;
+    height: 56;
+    border-radius: 100%;
+}
+
+.c-author__name,
+.c-author__meta {
+    margin-bottom: 0;
+}
+
+.c-author__meta {
+    font-size: 14px;
+    font-family: "Inter", "Helvetica Neue", Helvetica, arial, sans-serif;
+    line-height: 24px;
+}
+
+.c-author__name {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+;.c-author__image {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right: 16px;
 }
